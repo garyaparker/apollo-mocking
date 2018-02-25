@@ -1,7 +1,12 @@
 import React from 'react';
+import { ApolloProvider } from 'react-apollo';
+import AppComponent from './app';
+import client from '../graphql/apollo-client';
 
 const RootComponent = () => (
-  <div>root component</div>
+  <ApolloProvider client={client}>
+    <AppComponent />
+  </ApolloProvider>
 );
 
 export default RootComponent;

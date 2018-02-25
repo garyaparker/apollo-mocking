@@ -1,0 +1,6 @@
+query StarWarsFilms {
+  allFilms {
+    title
+    id
+  }
+}
