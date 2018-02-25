@@ -1,0 +1,45 @@
+{
+  "name": "apollo-mocking",
+  "version": "1.0.0",
+  "description": "Mocking Apollo 2 Client Results in React with Webpack and Schema Link",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garyaparker/apollo-mocking.git"
+  },
+  "author": "Gary Parker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garyaparker/apollo-mocking/issues"
+  },
+  "homepage": "https://github.com/garyaparker/apollo-mocking#readme",
+  "devDependencies": {
+    "apollo-cache-inmemory": "^1.1.9",
+    "apollo-client": "^2.2.5",
+    "apollo-link-http": "^1.5.1",
+    "apollo-link-schema": "^1.0.6",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "graphql": "^0.13.1",
+    "graphql-tools": "^2.21.0",
+    "html-webpack-plugin": "webpack-contrib/html-webpack-plugin",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-apollo": "^2.0.4",
+    "react-dom": "^16.2.0",
+    "tapable": "^1.0.0",
+    "webpack": "^4.0.0",
+    "webpack-cli": "^2.0.9",
+    "webpack-dev-server": "^3.0.0"
+  },
+  "dependencies": {
+    "graphql-tag": "^2.8.0"
+  }
+}
