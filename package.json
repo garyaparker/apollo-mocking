@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
+    "start:mock": "webpack-dev-server --open --mode development --env.GRAPHQL_MOCK",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,7 +28,7 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
-    "graphql": "^0.13.1",
+    "graphql": "^0.12.0",
     "graphql-tag": "^2.8.0",
     "graphql-tools": "^2.21.0",
     "html-webpack-plugin": "webpack-contrib/html-webpack-plugin",
@@ -35,7 +36,6 @@
     "react": "^16.2.0",
     "react-apollo": "^2.0.4",
     "react-dom": "^16.2.0",
-    "tapable": "^1.0.0",
     "webpack": "^4.0.0",
     "webpack-cli": "^2.0.9",
     "webpack-dev-server": "^3.0.0"

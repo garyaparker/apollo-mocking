@@ -44,7 +44,7 @@ module.exports = (env) => {
   if (env && env.GRAPHQL_MOCK) {
     config.plugins.push(new webpack.NormalModuleReplacementPlugin(
       /graphql\/http-link\.js/,
-      './mock-data/schema-link.js'
+      './schema-link.js'
     ));
   }
 
